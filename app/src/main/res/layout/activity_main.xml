@@ -6,35 +6,43 @@
     android:background="@android:color/white"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/frmFirst"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <androidx.fragment.app.FragmentContainerView
-                android:id="@+id/fragmentContainerViewFirst"
+            <fragment
+                android:id="@+id/firstFragment"
                 android:name="com.bilgensoft.newsapp.FirstFragment"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="200dp"
+                tools:layout="@layout/fragment_first" />
 
-            <androidx.fragment.app.FragmentContainerView
-                android:id="@+id/fragmentContainerViewSecond"
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <fragment
+                android:id="@+id/secondFragment"
                 android:name="com.bilgensoft.newsapp.SecondFragment"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="200dp"
+                tools:layout="@layout/fragment_first" />
 
-            <androidx.fragment.app.FragmentContainerView
-                android:id="@+id/fragmentContainerViewThird"
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <fragment
+                android:id="@+id/thirdFragment"
                 android:name="com.bilgensoft.newsapp.ThirdFragment"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="200dp"
+                tools:layout="@layout/fragment_first" />
         </LinearLayout>
-    </FrameLayout>
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
