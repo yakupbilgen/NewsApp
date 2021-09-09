@@ -18,7 +18,6 @@
             <fragment
                 android:id="@+id/firstFragment"
                 android:name="com.bilgensoft.newsapp.FirstFragment"
-                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 tools:layout="@layout/fragment_first" />
 
@@ -31,7 +30,7 @@
                 android:name="com.bilgensoft.newsapp.SecondFragment"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                tools:layout="@layout/fragment_first" />
+                tools:layout="@layout/fragment_second" />
 
             <View
                 android:layout_width="match_parent"
@@ -42,7 +41,7 @@
                 android:name="com.bilgensoft.newsapp.ThirdFragment"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                tools:layout="@layout/fragment_first" />
+                tools:layout="@layout/fragment_third" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

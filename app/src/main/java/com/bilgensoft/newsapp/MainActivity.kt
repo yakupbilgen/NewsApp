@@ -2,19 +2,16 @@ package com.bilgensoft.newsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.FragmentManager
+import com.bilgensoft.newsapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
     val fragmentManager= super.getSupportFragmentManager()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         this.supportActionBar?.hide()
     }
-
-        val fragmentTransaction = supportFragmentManager.beginTransaction()
-        //fragmentTransaction.replace(R.id.frmFirst, fragment)
-        //fragmentTransaction.commit()
-
 }
