@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">NewsApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name" translatable="false">News</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="newsOneHead" translatable="false">Twin tropical storms threaten flooding, mudslides in Taiwan and Vietnam</string>
+    <string name="newsOneDesc" translatable="false">Vietnam and Taiwan are bracing for twin tropical storms which are expected to make landfall over the coming days, with typhoon Chanthu strengthening into a Super Typhoon in the past 24 hours.</string>
+    <string name="newsOneCategory" translatable="false">World</string>
+    <string name="newOneTime" translatable="false">8 min ago</string>
+    <string name="newsTwoHead" translatable="false">US cities are losing 36 million trees a year. Here is why it matters</string>
+    <string name="newsTwoDesc" translatable="false">If you are looking for a reason to care about tree loss, this summers record-breaking heat waves might be it. Trees can lower summer daytime temperatures by as much as 10 degrees Fahrenheit, according to a recent study.</string>
+    <string name="newsTwoCategory" translatable="false">Climate in crisis</string>
+    <string name="newsTwoTime" translatable="false">13 min ago</string>
 </resources>

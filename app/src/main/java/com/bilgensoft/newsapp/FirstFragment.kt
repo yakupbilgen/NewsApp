@@ -12,9 +12,6 @@ class FirstFragment : Fragment() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
     }
 
     override fun onCreateView(
@@ -24,10 +21,4 @@ class FirstFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-    }
-
-    private fun setContentView(view: View) {}
 }
