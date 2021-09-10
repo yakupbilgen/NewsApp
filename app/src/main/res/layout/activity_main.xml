@@ -44,6 +44,17 @@
                 android:layout_height="wrap_content"
                 tools:layout="@layout/fragment_third" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fourFragment"
+                android:name="com.bilgensoft.newsapp.FourFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_four" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

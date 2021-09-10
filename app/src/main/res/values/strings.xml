@@ -28,4 +28,14 @@
     <string name="newsSixDesc">The shutdowns caused by the Covid-19 pandemic forced Corporate America to embark upon a massive work-from-home experiment that presented many unknowns: How do we keep workers safe? Can we stay productive? What’s the best way to communicate and collaborate? How long will we be out of the office?</string>
     <string name="cat">Cat</string>
     <string name="key">Key</string>
+    <string name="newsOne">Bruce Is a Parrot With a Broken Beak. So He Invented a Tool.</string>
+    <string name="newsTwo">A Swirling Vortex Is No Match for This Deep-Sea Sponge</string>
+    <string name="newsThree">Milkweed Butterflies Are More Murderous Than They Look</string>
+    <string name="newsFour">‘Spaceship-Shaped’ Fossil Reveals Hungry Predator of Ancient Oceans</string>
+    <string name="newsFive">Did Nazis Produce These Uranium Cubes? Researchers Look for an Answer.</string>
+    <string name="newsSix">Komodo Dragons Are Now Endangered and ‘Moving Toward Extinction’</string>
+    <string name="newsSeven">How the Cat Gets Its Stripes: It’s Genetics, Not a Folk Tale</string>
+    <string name="newsEight">Black Vulture Attacks on Animals May Be Increasing</string>
+    <string name="newsNine">Reuniting an Orphan Elephant and Her Mom, Perhaps, With DNA and Luck</string>
+    <string name="news">News</string>
 </resources>
