@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -10,14 +11,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <ImageView
             android:id="@+id/imgOne"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:contentDescription="Cat"
-            app:srcCompat="@drawable/news1" />
+            android:contentDescription="@string/fish"
+            app:srcCompat="@drawable/news3" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,13 +31,13 @@
                 android:textColor="@color/teal_200"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/newsOneCategory" />
+                android:text="@string/newsThreeCategory" />
 
             <TextView
                 android:textColor="@color/teal_200"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/newOneTime"
+                android:text="@string/newsThreeTime"
                 android:gravity="end"/>
         </LinearLayout>
 
@@ -46,7 +49,7 @@
             android:id="@+id/newsOneHead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/newsOneHead"
+            android:text="@string/newsThreeHead"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -54,7 +57,7 @@
             android:id="@+id/newsOneDesc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/newsOneDesc"
+            android:text="@string/newsThreeDesc"
             android:textSize="14sp" />
 
         <View
@@ -65,8 +68,8 @@
             android:id="@+id/imgTwo"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:contentDescription="Key"
-            app:srcCompat="@drawable/news2" />
+            android:contentDescription="@string/key"
+            app:srcCompat="@drawable/news4" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,13 +80,13 @@
                 android:textColor="@color/teal_200"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/newsTwoCategory" />
+                android:text="@string/newsFourCategory" />
 
             <TextView
                 android:textColor="@color/teal_200"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/newsTwoTime"
+                android:text="@string/newsFourTime"
                 android:gravity="end"/>
         </LinearLayout>
 
@@ -95,7 +98,7 @@
             android:id="@+id/newsTwoHead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/newsTwoHead"
+            android:text="@string/newsFourHead"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -103,7 +106,7 @@
             android:id="@+id/newsTwoDesc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/newsTwoDesc"
+            android:text="@string/newsFourDesc"
             android:textSize="14sp" />
     </LinearLayout>
 </FrameLayout>

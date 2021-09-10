@@ -11,13 +11,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <ImageView
             android:id="@+id/imgOne"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:contentDescription="Cat"
+            android:contentDescription="@string/cat"
             app:srcCompat="@drawable/news1" />
 
         <LinearLayout
@@ -41,7 +42,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="30dp" />
 
         <TextView
             android:id="@+id/newsOneHead"
@@ -66,7 +67,7 @@
             android:id="@+id/imgTwo"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:contentDescription="Key"
+            android:contentDescription="@string/key"
             app:srcCompat="@drawable/news2" />
 
         <LinearLayout

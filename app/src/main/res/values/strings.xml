@@ -9,4 +9,23 @@
     <string name="newsTwoDesc" translatable="false">If you are looking for a reason to care about tree loss, this summers record-breaking heat waves might be it. Trees can lower summer daytime temperatures by as much as 10 degrees Fahrenheit, according to a recent study.</string>
     <string name="newsTwoCategory" translatable="false">Climate in crisis</string>
     <string name="newsTwoTime" translatable="false">13 min ago</string>
+    <string name="newsThreeCategory">Travel</string>
+    <string name="newsThreeTime">19 min ago</string>
+    <string name="newsThreeHead">Photographic proof that wild animals are hilarious</string>
+    <string name="newsThreeDesc">The selection of 42 images make up the final shortlist for the competition, which received more than 7,000 entries from around the world, according to a press release on Wednesday.</string>
+    <string name="newsFourCategory">Trader</string>
+    <string name="newsFourTime">25 min ago</string>
+    <string name="newsFourHead">There\'s a shortage of truckers, but TuSimple thinks it has a solution: no driver needed</string>
+    <string name="newsFourDesc">Right now, there\'s a shortage of truck drivers in the US and worldwide, exacerbated by the e-commerce boom brought on by the pandemic.</string>
+    <string name="fish">Fish</string>
+    <string name="newsFiveCategory">Other</string>
+    <string name="newsFiveTime">33 min ago</string>
+    <string name="newsFiveHead">A newly discovered dinosaur with shark-like teeth was the T. rex of its day</string>
+    <string name="newsFiveDesc">It belongs to family of dinosaurs known as carcharodontosaurs, best known for their shark-like teeth. Named Ulughbegsaurus uzbekistanensis, it was at least 22 feet (seven meters) long and weighed more than a ton (1,000 kilograms) and would have roamed Central Asia about 90 million years ago.</string>
+    <string name="newsSixCategory">Business</string>
+    <string name="newsSixTime">44 min ago</string>
+    <string name="newsSixHead">The pandemic changed the way we work. 15 CEOs weigh in on what\'s next</string>
+    <string name="newsSixDesc">The shutdowns caused by the Covid-19 pandemic forced Corporate America to embark upon a massive work-from-home experiment that presented many unknowns: How do we keep workers safe? Can we stay productive? What’s the best way to communicate and collaborate? How long will we be out of the office?</string>
+    <string name="cat">Cat</string>
+    <string name="key">Key</string>
 </resources>
